@@ -1,0 +1,10 @@
+rendering: guncelleme olayi
+
+2) npm uzerinden react kurma:
+mac'ler icin "sudo" ekleriz
+   sudo npm install create-react-app
+   cd destop
+   create-react-app ornek1_giris
+   cd my-react-app
+   npm start
+   
