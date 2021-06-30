@@ -7,4 +7,24 @@ mac'ler icin "sudo" ekleriz
    create-react-app ornek1_giris
    cd my-react-app
    npm start
-   
+
+3) echo "# Reactr" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/kemgur/Reactr.git
+git push -u origin main
+
+4) node_modulus paylasilan projelerde genelde
+ yer almaz sonradan indirmek gerekebilir
+  npm install
+
+5)  package.json:  projelerdeki pom.xml gibidir.
+Proje yonetim merkezidir.
+
+6) public kisminda index.html yer alir.
+
+
+
+
