@@ -25,6 +25,10 @@ Proje yonetim merkezidir.
 
 6) public kisminda index.html yer alir.
 
+7) <div> start tag
+   </div> end tag
+   <App/> self closing tag
+
 
 
 
