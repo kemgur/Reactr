@@ -29,6 +29,16 @@ Proje yonetim merkezidir.
    </div> end tag
    <App/> self closing tag
 
+8) react bootstrap kutuphanesini terminal ile yukleme
+npm install react-bootstrap bootstrap@4.6.0
 
+Proje icerisine react bootstrap kutuphanesini eklemek icin terminale
+npm install react-bootstrap --save
+yazdiginizda proje icerisindeki package.json kutuphanesine eklenir
+
+Ayrica App.js'in icerisine import etmek gerekiyor. 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+9) navbar: logo ekleme kismidir
 
 
