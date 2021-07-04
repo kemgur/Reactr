@@ -1,0 +1,7 @@
+1-Bind olayi nedir? 
+  Kendi yazdigimiz  fonksiyonlarin class'a atanmasidir.
+  (It is the assignment of the functions we wrote to the class.)
+
+2- Bind'dan kurtulmak icin ne yapmaliyiz.
+   Arrow function kullanmaliyiz
+   

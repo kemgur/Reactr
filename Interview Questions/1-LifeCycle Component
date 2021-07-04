@@ -1,0 +1,6 @@
+1- life cycle componentler nelerdir.
+Ornegin: componentDidMount(), 
+         componentWillUnmount(),
+         componentDidUpdate(),
+          
+
