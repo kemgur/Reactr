@@ -41,4 +41,22 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 9) navbar: logo ekleme kismidir
 
+10) npm install react-router ile indirilir. Bu single pagetir.
+    React router sayfalar arasi gecisi saglar.
 
+11) {/* shortcut add varsa h1 'i goster, demis olduk' */}
+        {ad && (
+          <h1>Merhaba {ad} {soyad}</h1>  
+          )}
+ 12) Sayfalar arasinda yonlendirmelerde Next.js kullanilabilir. 
+     Ama biz day08 deki projede React-Router-dom kullanacagiz.         
+     npm install react-router-dom ile projeye indirecegiz 
+    
+ 13) {/* A <Switch> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
+      {/* Bir <Switch>, <Route>s alt öğelerine bakar ve
+            geçerli URL ile eşleşen ilkini oluşturur. */}
+
+  14) <Router></Router> Nedir?
+      Local'de yonlendirmeyi saglar,Default component'leri vardir, 
+      Bu componentler, Route, Link, Switch'tir.             

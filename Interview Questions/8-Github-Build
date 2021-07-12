@@ -1,0 +1,8 @@
+yaptigimiz calismalari build etmek icin 
+npm run build komutu kullanilir.
+Olusan build dosyasini netlify sitesinde ucretsiz database kullanilarak yapilir.
+ 
+ Turkce React 8. dersin basinda anlatiliyor
+
+ firebase ve vercel sitelerinde de projeelri yayinlayabiliriz.
+  
