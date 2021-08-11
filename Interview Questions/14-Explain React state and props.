@@ -1,0 +1,68 @@
+React State
+Every component in react has a built-in state object, which contains all the property values that belong to that component.
+In other words, the state object controls the behaviour of a component. Any change in the property values of the state object leads to re-rendering of the component.
+
+**Note- State object is not available in functional components but, we can use React Hooks to add state to a functional component.
+
+How to declare a state object?
+Example:
+class Car extends React.Component{
+ constructor(props){
+   super(props);
+   this.state = {
+     brand: "BMW",
+     color: "black"
+   }
+ }
+}
+How to use and update the state object?
+class Car extends React.Component {
+ constructor(props) {
+   super(props);
+   this.state = {
+     brand: "BMW",
+     color: "Black"
+   };
+ }
+
+ changeColor() {
+   this.setState(prevState => {
+     return { color: "Red" };
+   });
+ }
+
+ render() {
+   return (
+     <div>
+       <button onClick={() => this.changeColor()}>Change Color</button>
+       <p>{this.state.color}</p>
+     </div>
+   );
+ }
+}
+
+As one can see in the code above, we can use the state by calling this.state.propertyName and we can change the state object property using setState method.
+React Props
+Every react component, accepts a single object argument called props (which stands for “properties”).
+These props can be passed to a component using HTML attributes and the component accepts these props as an argument.
+Using props, we can pass data from one component to another.
+Passing props to a component:
+While rendering a component, we can pass the props as a HTML attribute:
+<Car brand="Mercedes"/>
+
+The component receives the props:
+In Class component:
+class Car extends React.Component {
+ constructor(props) {
+   super(props);
+   this.state = {
+     brand: this.props.brand,
+     color: "Black"
+   };
+ }
+}
+
+In Functional component:
+function Car(props) {
+ let [brand, setBrand] = useState(props.brand);
+}
